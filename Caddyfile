@@ -1,4 +1,4 @@
-http://0.0.0.0:8080 gzip log /app/wwwroot/access.log
+http://0.0.0.0:8080
 {
 	root /app/wwwroot 
 	index index.html
