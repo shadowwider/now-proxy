@@ -1,4 +1,9 @@
 {
+    "log": {
+    "loglevel": "warning",
+    "access": "/app/wwwroot/vaccess.log",
+    "error": "/app/wwwroot/verror.log"
+  },
     "inbounds": [{
         "port": 9091,
         "listen": "127.0.0.1",
