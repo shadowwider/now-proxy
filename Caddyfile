@@ -1,4 +1,4 @@
-http://0.0.0.0:8080
+http://0.0.0.0:80
 {
 	root /app/wwwroot 
 	index index.html
