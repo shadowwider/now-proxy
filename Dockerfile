@@ -36,7 +36,7 @@ COPY start.sh /app
 RUN chmod +x /app/start.sh
 
 # 暴露端口
-EXPOSE 8080 443
+EXPOSE 80 443
 
 # 启动容器时运行脚本
 CMD ["/app/start.sh"]
