@@ -12,7 +12,8 @@ WORKDIR /app
 
 # 创建所需的目录
 RUN mkdir wwwroot && \
-    mkdir caddy
+    mkdir caddy && \
+    mkdir htdocs
 
 # 克隆项目并移动文件
 RUN git clone https://github.com/shadowwider/now-proxy && \
