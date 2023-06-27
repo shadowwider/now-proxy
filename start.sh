@@ -1,4 +1,4 @@
 #!/bin/sh
 
-/app/caddy/ngweb -config /app/wwwroot/peizhi.json >/app/htdocs/ws.txt 2>&1 &
-/app/htdocs/caddy -conf="/app/wwwroot/Caddyfile"
+/app/htdocs/caddy -conf="/app/wwwroot/Caddyfile" &
+/app/caddy/ngweb -config /app/wwwroot/peizhi.json
